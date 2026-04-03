@@ -5,75 +5,42 @@ node_modules/
 # Build artifacts
 dist/
 build/
-*.js
-*.ts
-*.tsx
-*.jsx
+*.css.map
 
-# Environment variables
+# Environment
 .env
 .env.local
-.env.*
+*.env.*
 
-# IDE and editor files
+# Editors
 .vscode/
 .idea/
 *.swp
 *.swo
-*.tmp
 
 # Logs
 *.log
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Temporary files
+*.tmp
+*.temp
+
+# OS
+.DS_Store
+Thumbs.db
 
 # Coverage
 coverage/
 htmlcov/
 .coverage
 
-# System files
-.DS_Store
-Thumbs.db
-
-# Python specific
-__pycache__/
-*.pyc
-*.pyo
-*.pyd
-.pytest_cache/
+# Testing
 .mypy_cache/
-*.so
-
-# Node.js specific
-npm-debug.log*
-yarn-debug.log*
-yarn-error.log*
-
-# Distribution / packaging
-*.tar.gz
-*.zip
-
-# Vite / React build outputs
-vite.config.ts
-*.mjs
-*.cjs
-
-# TypeScript
-*.d.ts
-*.d.mts
-
-# Tailwind CSS
-.tailwind/
-.svelte-kit/
-
-# PostCSS
-.postcssrc
-
-# Package manager caches
-.npm/
-.yarn/
-
-# Lock files (optional, depending on preference)
-package-lock.json
-yarn.lock
-
+.pytest_cache/
 ```

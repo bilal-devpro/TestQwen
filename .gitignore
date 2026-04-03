@@ -2,45 +2,38 @@
 # Dependencies
 node_modules/
 
-# Build artifacts
-dist/
-build/
-*.css.map
-
 # Environment
 .env
 .env.local
 *.env.*
 
+# Logs and temp files
+*.log
+*.tmp
+
 # Editors
 .vscode/
 .idea/
-*.swp
-*.swo
-
-# Logs
-*.log
 
 # Python
 __pycache__/
 *.pyc
 *.pyo
 *.pyd
+.Python
+*.so
+*.egg-info/
+.eggs/
 
-# Temporary files
-*.tmp
-*.temp
-
-# OS
-.DS_Store
-Thumbs.db
-
-# Coverage
+# Build directories
+dist/
+build/
+target/
+.coverage
 coverage/
 htmlcov/
-.coverage
-
-# Testing
 .mypy_cache/
 .pytest_cache/
+.tox/
+.nyc_output/
 ```
